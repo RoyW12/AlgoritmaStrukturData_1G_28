@@ -65,15 +65,15 @@ public class Fungsi28 {
                     break;
                 case 1:
                     stockKeladi = (stock[cabang - 1][i] - keladiRusak);
-                    System.out.println("stock bunga algonema : " + stockKeladi);
+                    System.out.println("stock bunga Keladi : " + stockKeladi);
                     break;
                 case 2:
                     stockAlocasia = (stock[cabang - 1][i] - alocasiaRusak);
-                    System.out.println("stock bunga algonema : " + stockAlocasia);
+                    System.out.println("stock bunga Alocasia : " + stockAlocasia);
                     break;
                 case 3:
                     stockMawar = (stock[cabang - 1][i] - mawarRusak);
-                    System.out.println("stock bunga algonema : " + stockMawar);
+                    System.out.println("stock bunga Mawar : " + stockMawar);
                     break;
             }
         }
