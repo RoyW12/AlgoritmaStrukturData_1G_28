@@ -20,7 +20,7 @@ class Buku {
         stok += jml;
     }
 
-    void gantiharga(int hrg) {
+    void gantiHarga(int hrg) {
         harga = hrg;
     }
 }
