@@ -17,5 +17,7 @@ public class BukuMain28 {
         Buku bk2 = new Buku("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku bukuRoy = new Buku("One Piece", "Eichiro Oda", 101, 30, 40000);
     }
 }
