@@ -11,7 +11,7 @@ public class ArrayObjects {
         PersegiPanjang[] ppArray = new PersegiPanjang[arrayLength];
         // Persegi[] pgArray = new Persegi[100];
         // pgArray[5].sisi = 20;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arrayLength; i++) {
             ppArray[i] = new PersegiPanjang();
             System.out.println("Persegi panjang ke-" + i);
             System.out.print("Masukkan panjang: ");
@@ -20,7 +20,7 @@ public class ArrayObjects {
             ppArray[i].lebar = sc.nextInt();
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arrayLength; i++) {
             System.out.println("Persegi Panjang ke-" + i);
             System.out.println("Panjang : " + ppArray[i].panjang + ", lebar: " + ppArray[i].lebar);
 
