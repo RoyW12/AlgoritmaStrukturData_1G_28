@@ -6,7 +6,7 @@ public class ArrayMahasiswa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double rataIPK = 0;
-        int idMhsIpkTerbesar = 0;
+        int indexMhsIpkTerbesar = 0;
         Mahasiswa[] mhs = new Mahasiswa[3];
         for (int i = 0; i < mhs.length; i++) {
             mhs[i] = new Mahasiswa();
@@ -35,13 +35,13 @@ public class ArrayMahasiswa {
         System.out.println("Rata-rata ipk: " + rataIPK);
 
         for (int i = 0; i < mhs.length; i++) {
-            idMhsIpkTerbesar = mhs[i].ipkTerbesar(mhs);
+            indexMhsIpkTerbesar = mhs[i].ipkTerbesar(mhs);
         }
         System.out.println("Mahasiswa dengan IPK terbesar: ");
-        System.out.println("Nama            : " + mhs[idMhsIpkTerbesar].nama);
-        System.out.println("Nim             : " + mhs[idMhsIpkTerbesar].nim);
-        System.out.println("Jenis Kelamin   : " + mhs[idMhsIpkTerbesar].jenisKelamin);
-        System.out.println("Ipk             : " + mhs[idMhsIpkTerbesar].ipk);
+        System.out.println("Nama            : " + mhs[indexMhsIpkTerbesar].nama);
+        System.out.println("Nim             : " + mhs[indexMhsIpkTerbesar].nim);
+        System.out.println("Jenis Kelamin   : " + mhs[indexMhsIpkTerbesar].jenisKelamin);
+        System.out.println("Ipk             : " + mhs[indexMhsIpkTerbesar].ipk);
 
     }
 }
