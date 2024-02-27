@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class ArrayObjects {
     public static void main(String[] args) {
-        PersegiPanjang[] ppArray = new PersegiPanjang[3];
-
-        Persegi[] pgArray = new Persegi[100];
-        pgArray[5].sisi = 20;
-
         Scanner sc = new Scanner(System.in);
+        System.out.print("Banyak persegi: ");
+        int arrayLength = sc.nextInt();
+
+        PersegiPanjang[] ppArray = new PersegiPanjang[arrayLength];
+        // Persegi[] pgArray = new Persegi[100];
+        // pgArray[5].sisi = 20;
         for (int i = 0; i < 3; i++) {
             ppArray[i] = new PersegiPanjang();
             System.out.println("Persegi panjang ke-" + i);
