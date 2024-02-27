@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class ArrayObjects {
     public static void main(String[] args) {
         PersegiPanjang[] ppArray = new PersegiPanjang[3];
+
+        Persegi[] pgArray = new Persegi[100];
+        pgArray[5].sisi = 20;
+
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
             ppArray[i] = new PersegiPanjang();
