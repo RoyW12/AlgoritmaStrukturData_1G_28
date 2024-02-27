@@ -8,5 +8,9 @@ public class ArraySegitiga {
         sgArray[2] = new Segitiga(15, 6);
         sgArray[3] = new Segitiga(25, 10);
 
+        for (int i = 0; i < sgArray.length; i++) {
+            System.out.println("Segitiga ke-" + i + " dengan Luas: " + sgArray[i].hitungLuas() + " dan Keliling: "
+                    + sgArray[i].hitungKeliling());
+        }
     }
 }
