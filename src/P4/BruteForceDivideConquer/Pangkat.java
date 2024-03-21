@@ -4,10 +4,10 @@ public class Pangkat {
     public int nilai;
     public int pangkat;
 
-    // Pangkat(int nilai, int pangkat) {
-    // this.nilai = nilai;
-    // this.pangkat = pangkat;
-    // }
+    Pangkat(int nilai, int pangkat) {
+        this.nilai = nilai;
+        this.pangkat = pangkat;
+    }
 
     int pangkatBF(int a, int n) {
         int hasil = 1;
