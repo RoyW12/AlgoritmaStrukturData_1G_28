@@ -6,7 +6,7 @@ public class Mahasiswa {
     public String jenisKelamin;
     public double ipk;
 
-    public double hitungRataIPK(Mahasiswa[] mhs) {
+    public static double hitungRataIPK(Mahasiswa[] mhs) {
         double totalIpk = 0;
         for (Mahasiswa mahasiswa : mhs) {
             totalIpk += mahasiswa.ipk;
@@ -14,7 +14,7 @@ public class Mahasiswa {
         return totalIpk / mhs.length;
     }
 
-    public int ipkTerbesar(Mahasiswa[] mhs) {
+    public static int ipkTerbesar(Mahasiswa[] mhs) {
 
         int indexIpkTerbesar = 0;
         for (int i = 0; i < mhs.length; i++) {
