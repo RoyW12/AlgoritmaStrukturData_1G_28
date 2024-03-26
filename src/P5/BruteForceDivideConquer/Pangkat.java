@@ -1,4 +1,4 @@
-package P4.BruteForceDivideConquer;
+package P5.BruteForceDivideConquer;
 
 public class Pangkat {
     public int nilai;
