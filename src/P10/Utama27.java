@@ -12,7 +12,8 @@ public class Utama27 {
             System.out.println("1. Tambah barang");
             System.out.println("2. Ambil barang");
             System.out.println("3. Tampilkan tumpukan barang");
-            System.out.println("4. Keluar");
+            System.out.println("4. Lihat barang teratas");
+            System.out.println("5. Keluar");
             System.out.print("Pilih Operasi: ");
             int pilihan = roy27.nextInt();
             roy27.nextLine();
@@ -35,8 +36,10 @@ public class Utama27 {
                 case 3:
                     gudang.tampilkanBarang();
                     break;
-
                 case 4:
+                    gudang.lihatBarangTeratas();
+                    break;
+                case 5:
                     isBreak = true;
                     break;
                 default:
