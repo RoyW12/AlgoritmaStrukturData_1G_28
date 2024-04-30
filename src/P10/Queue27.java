@@ -40,7 +40,7 @@ public class Queue27 {
     }
 
     public void print() {
-        if (!isEmpty()) {
+        if (isEmpty()) {
             System.out.println("Queue masih kosong");
         } else {
             int i = front;
