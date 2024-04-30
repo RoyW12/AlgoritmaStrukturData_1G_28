@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Utama27 {
     public static void main(String[] args) {
         Scanner roy27 = new Scanner(System.in);
-        Gudang27 gudang = new Gudang27(7);
+        System.out.print("Tentukan kapasitas gudang");
+        int kapasitas = roy27.nextInt();
+        Gudang27 gudang = new Gudang27(kapasitas);
         boolean isBreak = false;
         while (!isBreak) {
             System.out.println("\nMenu:");
