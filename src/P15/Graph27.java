@@ -12,6 +12,10 @@ public class Graph27 {
         }
     }
 
+    boolean adjacency(int start, int end) throws Exception {
+        return list[start].size() > 0 && list[start].get(0) == end;
+    }
+
     public void addEdge(int asal, int tujuan, int jarak) {
         list[asal].addFirst(tujuan, jarak);
     }

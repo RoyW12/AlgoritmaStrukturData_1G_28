@@ -14,7 +14,7 @@ public class GraphMatriks27 {
     }
 
     public void removeEdge(int asal, int tujuan) {
-        matriks[asal][tujuan] = -1;
+        matriks[asal][tujuan] = 0;
     }
 
     public void printGraph() {
@@ -25,6 +25,7 @@ public class GraphMatriks27 {
                     System.out.print("Gedung " + (char) ('A' + j) + "(" + matriks[i][j] + "m), ");
                 }
             }
+            System.out.println();
         }
     }
 
