@@ -1,7 +1,5 @@
 package P15;
 
-import java.util.Scanner;
-
 public class GraphMain27 {
     public static void main(String[] args) throws Exception {
 
@@ -17,6 +15,9 @@ public class GraphMain27 {
         System.out.println("Hasil setelah penghapusan edge");
         gdg.removeEdge(2, 1);
         gdg.printGraph();
-
+        for (int i = 0; i < 4; i++) {
+            System.out.println("Gedung " + (char) ('A' + i) + ": InDegree = " + gdg.inDegree(i) + ", OutDegree = "
+                    + gdg.outDegree(i) + ", Total Degree = " + gdg.degree(i));
+        }
     }
 }
